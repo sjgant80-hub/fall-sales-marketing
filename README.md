@@ -1,6 +1,6 @@
 # Fall Sales & Marketing · sovereign AI agents
 
-> 8+1 AI agents replacing a full Sales + Marketing team. One HTML file. No server. No subscription. Replaces hiring.
+> 8+1 AI agents replacing a full Sales + Marketing team. One HTML file. No server. not subscription-based. Replaces hiring.
 >
 > Sovereign · single file · MIT · prime **311**
 
@@ -43,10 +43,10 @@ Every agent receives your company context, ICP, and brand voice automatically. O
 
 | | Traditional team | Fall Sales & Marketing |
 |---|---|---|
-| Headcount | 5–10 people · £30k–£80k each | 1 HTML file · £0 |
+| Headcount | 5–10 people · TBA each | 1 HTML file · TBA |
 | Time to first output | Months (recruit, train, ramp) | Minutes |
 | Vendor stack | HubSpot + Marketo + Outreach + Ahrefs + Canva + ChatGPT Team | None |
-| Year-1 cost | £150k–£700k | £0 |
+| Year-1 cost | TBA | TBA |
 | Data ownership | Vendor servers · subscription required forever | Your device · IndexedDB · JSON export |
 | Brand voice consistency | Drift between contributors | Single shared context across all agents |
 
