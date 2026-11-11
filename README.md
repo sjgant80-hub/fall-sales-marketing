@@ -74,7 +74,7 @@ Keys stay in your browser. Sent direct to the provider.
 | **UI** | runs from `file://` |
 | **Compute** | T0 templates · T2 your local Ollama · T3 your direct API call |
 | **Storage** | IndexedDB + JSON export |
-| **Mesh** | `BroadcastChannel('fall-signal')` · prime 311 |
+| **Mesh** | `BroadcastChannel('fall-signal')` |
 
 ## Related fall* tools
 
@@ -89,4 +89,4 @@ This tool sits one rung above each of them — it replaces the *team* that would
 
 Renamed from FallOffice (prime 7) so the FallOffice name could move to the productivity-suite slot the estate seed reserved for it. The agents engine, archetypes, and all functionality are unchanged.
 
-◊·κ=1 · prime 311 · MIT
+MIT
