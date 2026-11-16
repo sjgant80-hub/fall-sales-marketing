@@ -1797,12 +1797,12 @@ function renderChat(){
 function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
 function formatMd(s){
   let h=esc(s);
-  h=h.replace(/```([\s\S]*?)```/g,'<pre>TBA</pre>');
-  h=h.replace(/`([^`]+)`/g,'<code style="background:var(--surface2);padding:1px 5px;border-radius:3px;font-family:\'DM Mono\',monospace;font-size:12px">TBA</code>');
-  h=h.replace(/\*\*(.+?)\*\*/g,'<strong>TBA</strong>');
-  h=h.replace(/^### (.+)$/gm,'<h4>TBA</h4>');
-  h=h.replace(/^## (.+)$/gm,'<h3>TBA</h3>');
-  h=h.replace(/^[-•] (.+)$/gm,'<li>TBA</li>');
+  h=h.replace(/```([\s\S]*?)```/g,'<pre>$1</pre>');
+  h=h.replace(/`([^`]+)`/g,'<code style="background:var(--surface2);padding:1px 5px;border-radius:3px;font-family:\'DM Mono\',monospace;font-size:12px">$1</code>');
+  h=h.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+  h=h.replace(/^### (.+)$/gm,'<h4>$1</h4>');
+  h=h.replace(/^## (.+)$/gm,'<h3>$1</h3>');
+  h=h.replace(/^[-•] (.+)$/gm,'<li>$1</li>');
   h=h.replace(/(<li>.*<\/li>)/s,m=>'<ul>'+m+'</ul>');
   h=h.replace(/\n{2}/g,'</p><p>');
   if(!h.startsWith('<'))h='<p>'+h+'</p>';
