@@ -43,10 +43,10 @@ Every agent receives your company context, ICP, and brand voice automatically. O
 
 | | Traditional team | Fall Sales & Marketing |
 |---|---|---|
-| Headcount | 5–10 people · TBA each | 1 HTML file · TBA |
+| Headcount | 5–10 people | 1 HTML file |
 | Time to first output | Months (recruit, train, ramp) | Minutes |
 | Vendor stack | HubSpot + Marketo + Outreach + Ahrefs + Canva + ChatGPT Team | None |
-| Year-1 cost | TBA | TBA |
+| Year-1 cost | a full team's salaries | no subscription |
 | Data ownership | Vendor servers · subscription required forever | Your device · IndexedDB · JSON export |
 | Brand voice consistency | Drift between contributors | Single shared context across all agents |
 
